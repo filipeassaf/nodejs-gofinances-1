@@ -1,5 +1,5 @@
 import request from 'supertest';
-import { isUuid } from 'uuidv4';
+import { v4 as uuid } from 'uuid';
 import app from '../app';
 
 describe('Transaction', () => {
